@@ -38,11 +38,11 @@ O tráfego é monitorado e limitado para prevenir vetores de ataque comuns:
 ## 📂 Estrutura do Repositório
 
 ```text
-homelab-mark01/
-├── README.md               # Visão geral e hardware do projeto
-├── docs/                   # Guia passo a passo detalhado
-│   ├── 01-instalacao.md    # Particionamento e setup do Ubuntu 25.04
-│   ├── 02-seguranca.md     # Regras de UFW e Hardening de SSH
-│   └── 03-docker-lab.md    # Deploy de containers e gestão de volumes
-├── scripts/                # Automações de setup (UFW, Docker)
-└── configs/                # Backups de Netplan e Docker Compose
+homelab/
+├── README.md
+├── 01_Instalacao_Bare_Metal.md
+├── 02_Configuracao_Rede_Netplan.md
+├── 03_Atualizando_todos_os_software.md
+├── 04_Instalacao_Docker_Portainer.md
+├── 05_Monitoramento_Zabbix_Grafana.md       
+
