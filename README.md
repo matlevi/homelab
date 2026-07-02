@@ -42,7 +42,6 @@ homelab/
 ├── README.md
 ├── 01_Instalacao_Bare_Metal.md
 ├── 02_Configuracao_Rede_Netplan.md
-├── 03_Atualizando_todos_os_software.md
-├── 04_Instalacao_Docker_Portainer.md
-├── 05_Monitoramento_Zabbix_Grafana.md       
+├── 03_Instalacao_Docker_Portainer.md
+├── 04_Monitoramento_Zabbix_Grafana.md       
 
